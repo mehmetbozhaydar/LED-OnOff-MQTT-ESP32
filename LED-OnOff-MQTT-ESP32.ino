@@ -2,11 +2,11 @@
 #include <MQTT.h> // MQTT kütüphanesi
 
 // WiFi bilgileri
-const char* ssid = "pro"; // WiFi SSID
-const char* password = "12345678@"; // WiFi Şifresi
+const char* ssid = "***"; // WiFi SSID
+const char* password = "****"; // WiFi Şifresi
 
 // MQTT Broker IP adresi
-const char* mqtt_server = "192.168.113.152"; // Broker IP
+const char* mqtt_server = "****"; // Broker IP
 WiFiClient net; // WiFiClient nesnesi
 MQTTClient client;
 
